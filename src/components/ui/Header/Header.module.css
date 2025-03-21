@@ -1,12 +1,23 @@
 .containerHeader {
     width: 100vw;
-    height: 8vh;
-    background-color: #ccc;
+    height: 5vh;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    padding: 0.5rem;
+    background-color: #2a293d;
 }
 
 .containerTitleHeader{
+    position: relative;
+    left: 0;
+    right: 0;
     margin-left: 4vw;
+    color: #ffffff;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }

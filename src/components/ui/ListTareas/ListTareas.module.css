@@ -2,15 +2,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 0.5rem;
     flex-direction: column;
+    background-color: #0e0e11;
+}
+
+.containerPrincipalListTareas button{
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    background: linear-gradient(#9294ca  30%, #7775b6 70%);
+    border: 1px solid #66639f;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: bold;
 }
 
 .containerTitleAndButton{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 1rem;
-    width: 78%;
+    width: 50%;
+    margin: 1rem;
+    padding: 0 1rem;
+    color: #ffffff;
+}
+
+.containerTitleAndButton button{
+    height: 100%;
+    width: 20%;
+    color: #ffffff;
+    background-color: #18181b;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+button:hover{
+    background: linear-gradient(#66639f  30%, #545281 70%);
+    border: 1px solid #545281;
+}
+
+button:active{
+    background: linear-gradient(#545281 30%, #66639f 70%);
+    border: 1px solid #545281;
 }
 
 .containerList{
@@ -19,10 +55,13 @@
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: #ccc;
+    background-color: #18181b;
     width: 70%;
-    min-height: 60vh;
+    height: auto;
+    min-height: auto;
     max-height: 62vh;
     overflow-y: auto;
+    overflow-x: hidden;
     border-radius: 0.4rem;
+    border: 2px solid #27272a;
 }

@@ -1,21 +1,22 @@
 {
-    "tareas": [{
-        "id":"123",
-        "titulo":"Titulo1",
-        "descripcion":"Descripcion2",
-        "fechaLimite":"11111"
+  "tareas": [
+    {
+      "id": "1",
+      "titulo": "Titulo1",
+      "descripcion": "Descripcion2",
+      "fechaLimite": "11111"
     },
     {
-        "id":"1234",
-        "titulo":"Titulo2",
-        "descripcion":"Descripcion3",
-        "fechaLimite":"22222"
+      "id": "2",
+      "titulo": "Nueva tarea",
+      "descripcion": "ver el tamañpo\n",
+      "fechaLimite": "2025-03-21"
     },
     {
-        "id":"1235",
-        "titulo":"Titulo3",
-        "descripcion":"Descripcion4",
-        "fechaLimite":"33333"
+      "id": "3",
+      "titulo": "Nueva Tarea",
+      "descripcion": "swsw",
+      "fechaLimite": "2025-03-27"
     }
-]
+  ]
 }
